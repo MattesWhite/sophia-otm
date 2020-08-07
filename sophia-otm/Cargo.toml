@@ -1,0 +1,20 @@
+[package]
+name = "sophia-otm"
+version = "0.1.0"
+authors = ["MattesWhite <dagda92@googlemail.com>"]
+edition = "2018"
+description = "Implementation of object-triple-mapping for sophia."
+readme = "README.md"
+repository = "https://github.com/MattesWhite/sophia-otm"
+license = "MIT"
+license-file = "../LICENSE"
+keywords = ["RDF", "Linked Data", "OTM"]
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+sophia_api = "0.6"
+sophia_term = "0.6"
+sophia_iri = "0.6"
+thiserror = "1.0"
